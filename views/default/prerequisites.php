@@ -1,6 +1,6 @@
 <?php
-	/** @var $checks \app\helpers\SystemCheck */
-	/** @var $hasError \app\helpers\SystemCheck */
+	/** @var $checks \awsaf\installer\helpers\SystemChecker */
+	/** @var $hasError \awsaf\installer\helpers\SystemChecker */
 ?>
 <div id="mailer-form" class="card card-accent-secondary">
 	<div class="card-header">

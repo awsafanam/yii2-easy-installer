@@ -13,7 +13,7 @@ use Yii;
 class SystemChecker
 {
     /**
-     * Get Results of the Application SystemCheck.
+     * Get Results of the Application SystemChecker.
      *
      * Fields
      *  - title

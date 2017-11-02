@@ -2,7 +2,7 @@
 
 namespace awsaf\installer\controllers;
 
-use awsaf\installer\helpers\SystemCheck;
+use awsaf\installer\helpers\SystemChecker;
 use awsaf\installer\helpers\Configuration;
 use awsaf\installer\models\DatabaseForm;
 use awsaf\installer\models\GeneralForm;
@@ -32,14 +32,14 @@ class DefaultController extends Controller
     }
 
     /**
-     * Prerequisites action checks application requirement using the SystemCheck
+     * Prerequisites action checks application requirement using the SystemChecker
      * Library
      *
      * (Step 2)
      */
     public function actionPrerequisites()
     {
-        $checks = SystemCheck::getResults();
+        $checks = SystemChecker::getResults();
 
         $hasError = FALSE;
         foreach ($checks as $check) {
