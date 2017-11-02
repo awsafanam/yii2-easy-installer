@@ -9,7 +9,7 @@ Easy web interface to setup Yii 2.
 - Setup Admin Email
 
 ## Installation
- - Run `composer require awsafanam/yii2-easy-installer`
+ - Run `composer require "awsafanam/yii2-easy-installer": "0.1.1"`
  - Add this to your config file
  ```
     'bootstrap' => [
