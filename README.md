@@ -36,4 +36,4 @@ Easy web interface to setup Yii 2.
  
  ## License
  
- Yii2-installer is released under the MIT License. See the bundled [LICENSE](LICENSE.md) for details.
+ Yii2-installer is released under the MIT License. See the bundled [LICENSE](LICENSE) for details.
